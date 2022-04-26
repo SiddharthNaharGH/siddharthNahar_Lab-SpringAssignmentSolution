@@ -31,9 +31,9 @@
 		<form action="/StudentManagement/books/search" class="form-inline">
 
 			<!-- Add a button -->
-			<a href="/StudentManagement/student/showFormForAdd"
+			<a href="/StudentManagementApp/student/showFormForAdd"
 				class="btn btn-primary btn-sm mb-3"> Add Student </a> 
-			<a href="/StudentManagement/logout" 
+			<a href="/StudentManagementApp/logout" 
 					class="btn btn-primary btn-sm mb-3 mx-auto"> Logout </a> 
 
 
@@ -60,9 +60,9 @@
 						<td><c:out value="${tempStudent.country}" /></td>
 						<td>
 							<!-- Add "update" button/link --> <a
-							href="/StudentManagement/student/showFormForUpdate?studentId=${tempStudent.id}"
+							href="/StudentManagementApp/student/showFormForUpdate?studentId=${tempStudent.id}"
 							class="btn btn-info btn-sm"> Update </a> <!-- Add "delete" button/link -->
-							<a href="/StudentManagement/student/delete?studentId=${tempStudent.id}"
+							<a href="/StudentManagementApp/student/delete?studentId=${tempStudent.id}"
 							class="btn btn-danger btn-sm"
 							onclick="if (!(confirm('Are you sure you want to delete this Student?'))) return false">
 								Delete </a>

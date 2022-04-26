@@ -28,7 +28,7 @@
 
 		<p class="h4 mb-4">Student</p>
 
-		<form action="/StudentManagement/student/save" method="POST">
+		<form action="/StudentManagementApp/student/save" method="POST">
 
 			<!-- Add hidden form field to handle update -->
 			<input type="hidden" name="id" value="${Student.id}" />
@@ -72,7 +72,7 @@
 		</form>
 
 		<hr>
-		<a href="/StudentManagement/student/list">Back to Students List</a>
+		<a href="/StudentManagementApp/student/list">Back to Students List</a>
 
 	</div>
 </body>
